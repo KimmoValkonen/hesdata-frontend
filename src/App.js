@@ -17,7 +17,7 @@ function App() {
 
   useEffect(() => {
     const fetchData = () => {
-      fetch(`http://localhost:3001/api`)
+      fetch(`https://hesdata-backend.herokuapp.com/api`)
         .then((response) => response.json())
         .then((actualData) => {
           console.log(actualData)
